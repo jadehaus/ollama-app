@@ -12,7 +12,7 @@ def load_readme() -> str:
 
 def main():
     st.set_page_config(page_title='충북교육연구정보원 정보영재교육원 AI')
-    st.title("충북교육연구정보원 정보영재교육원 사사B반 프로젝트 AI")
+    st.title("2025 사사B반 프로젝트 AI")
 
     readme_md = load_readme()
     st.markdown(readme_md, unsafe_allow_html=True)
