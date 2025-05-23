@@ -1,3 +1,19 @@
+### 사용 가이드
+
+먼저 `ollama`를 실행합니다. Ollama 설치 및 실행 방법은 [Ollama 공식 사이트](https://ollama.com/)에서 확인해주세요.   
+Ollama 설치가 끝났다면, 아래와 같이 `ollama` 서버를 실행해주세요.
+
+```bash
+ollama serve
+```
+
+Ollama는 기본 설정상 `http://localhost:11434`에서 호스트됩니다.  
+
+Ollama 실행이 끝났다면, 터미널에서 다음 명령을 실행하여 웹서비스를 실행합니다.
+
+```bash
+streamlit run app.py
+```
 
 
 ### 구현 기능 목록 및 필요 기술 스택
